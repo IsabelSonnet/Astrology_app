@@ -6,5 +6,7 @@ button.addEventListener("click", () => {
 });
 
 function findStarSign(bday) {
-
+  var birthdate = new Date(bday);
+  var month = getMonth(birthdate);
+  var dayOfMonth = getDate(birthdate);
 }
