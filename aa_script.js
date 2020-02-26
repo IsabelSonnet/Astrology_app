@@ -58,4 +58,39 @@ function findStarSign(bday) {
           aquarius
       }
   }
+  if (month == 8) {
+      if (dayOfMonth <= 22){
+          return "leo";
+      } else {
+          return "virgo";
+      }
+  }
+   if (month == 9) {
+      if (dayOfMonth <= 22){
+          return "virgo";
+      } else {
+          return "libra";
+      }
+  }
+   if (month == 10) {
+      if (dayOfMonth <= 22){
+          return "libra";
+      } else {
+          return "scorpio"
+      }
+  }
+   if (month == 11) {
+      if (dayOfMonth <= 21){
+         return "scorpio";
+      } else {
+          return "sagittarius";
+      }
+  }
+   if (month == 12) {
+      if (dayOfMonth <= 21){
+          return "sagittarius";
+      } else {
+          return "capricorn";
+      }
+  }
 }
