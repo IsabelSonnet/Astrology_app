@@ -8,8 +8,8 @@ button.addEventListener("click", () => {
 
 function findStarSign(bday) {
     var birthdate = new Date(bday);
-    var month = getMonth(birthdate);
-    var dayOfMonth = getDate(birthdate);
+     var month = birthdate.getMonth();
+    var dayOfMonth = birthdate.getDate();
     if (month == 1) {
         if (dayOfMonth <= 20) {
             var capricorn = document.createElement("p");
