@@ -3,96 +3,95 @@ var result = document.getElementById("result");
 
 button.addEventListener("click", () => {
     var input = document.getElementById("dateInput").value;
-    var birthdate = new Date("input");
+    var birthdate = new Date(input);
     var answer = findStarSign(input);
 });
 
-function findStarSign() {
+function findStarSign(input) {
     var month = birthdate.getMonth();
     var dayOfMonth = birthdate.getDate();
     if (month == 0) {
         if (dayOfMonth <= 20) {
             result.innerHTML = "<p>Capricorn</p>";
         } else {
-            aquarius
+            result.innerHTML = "<p>Aquarius</p>";
         }
     }
     if (month == 1) {
         if (dayOfMonth <= 19) {
-            aquarius
+            result.innerHTML = "<p>Aquarius</p>";
         } else {
-            pisces
+            result.innerHTML = "<p>Pisces</p>";
         }
     }
     if (month == 2) {
         if (dayOfMonth <= 20) {
-            pisces
+            result.innerHTML = "<p>Pisces</p>";
         } else {
-            aries
+            result.innerHTML = "<p>Aries</p>";
         }
     }
     if (month == 3) {
         if (dayOfMonth <= 19) {
-            aries
+            result.innerHTML = "<p>Aries</p>";
         } else {
-            taurus
+            result.innerHTML = "<p>Taurus</p>";
         }
     }
     if (month == 4) {
         if (dayOfMonth <= 20) {
-            taurus
+            result.innerHTML = "<p>Taurus</p>";
         } else {
-            gemini
+            result.innerHTML = "<p>Gemini</p>";
         }
     }
     if (month == 5) {
         if (dayOfMonth <= 21) {
-            gemini
+            result.innerHTML = "<p>Gemini</p>";
         } else {
-            cancer
+            result.innerHTML = "<p>Cancer</p>";
         }
     }
     if (month == 6) {
         if (dayOfMonth <= ) {
-            capricon
+            result.innerHTML = "<p>Cancer</p>";
         } else {
-            aquarius
+            result.innerHTML = "<p>Leo</p>";
         }
     }
     if (month == 7) {
         if (dayOfMonth <= 22) {
-            return "leo";
+            result.innerHTML = "<p>Leo</p>";
         } else {
-            return "virgo";
+            result.innerHTML = "<p>Virgo</p>";
         }
     }
     if (month == 8) {
         if (dayOfMonth <= 22) {
-            return "virgo";
+            result.innerHTML = "<p>Virgo</p>";
         } else {
-            return "libra";
+            result.innerHTML = "<p>Libra</p>";
         }
     }
     if (month == 9) {
         if (dayOfMonth <= 22) {
-            return "libra";
+            result.innerHTML = "<p>Libra</p>";
         } else {
-            return "scorpio"
+            result.innerHTML = "<p>Scorpio</p>";
         }
     }
     if (month == 10) {
         if (dayOfMonth <= 21) {
-            return "scorpio";
+            result.innerHTML = "<p>Scorpio</p>";
         } else {
-            result.innerHTML = "<p>Capricorn</p>";
+            result.innerHTML = "<p>Sagittarius</p>";
         }
     }
     if (month == 11) {
         if (dayOfMonth <= 21) {
-            result.innerHTML = "<p>Capricorn</p>";
+            result.innerHTML = "<p>Sagittarius</p>";
         } else {
-            return "capricorn";
-        }
+            result.innerHTML = "<p>Capricorn</p>";
     }
 }
 
