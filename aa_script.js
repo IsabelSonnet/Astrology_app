@@ -1,4 +1,5 @@
-let button = document.getElementById("button");
+var button = document.getElementById("button");
+var result = document.getElementById("result");
 
 button.addEventListener("click", () => {
     var bday = document.getElementById("bday").value;
@@ -11,7 +12,8 @@ function findStarSign(bday) {
     var dayOfMonth = getDate(birthdate);
     if (month == 1) {
         if (dayOfMonth <= 20) {
-            capricon
+            var capricorn = document.createElement("p");
+            result.appendChild(capricorn);
         } else {
             aquarius
         }
