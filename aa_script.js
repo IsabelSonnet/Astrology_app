@@ -4,10 +4,10 @@ var result = document.getElementById("result");
 button.addEventListener("click", () => {
     var input = document.getElementById("dateInput").value;
     var birthdate = new Date(input);
-    var answer = findStarSign(input);
+    var answer = findStarSign(birthdate);
 });
 
-function findStarSign(input) {
+function findStarSign(birthdate) {
     var month = birthdate.getMonth();
     var dayOfMonth = birthdate.getDate();
     if (month == 0) {
@@ -92,6 +92,7 @@ function findStarSign(input) {
             result.innerHTML = "<p>Sagittarius</p>";
         } else {
             result.innerHTML = "<p>Capricorn</p>";
+        }
     }
 }
 
