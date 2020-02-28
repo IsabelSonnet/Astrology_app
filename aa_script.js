@@ -92,7 +92,9 @@ function findStarSign(input) {
             result.innerHTML = "<p>Sagittarius</p>";
         } else {
             result.innerHTML = "<p>Capricorn</p>";
+        }
     }
 }
+
 
 
