@@ -53,14 +53,14 @@ function findStarSign(input) {
         }
     }
     if (month == 6) {
-        if (dayOfMonth <= ) {
+        if (dayOfMonth <= 23) {
             result.innerHTML = "<p>Cancer</p>";
         } else {
             result.innerHTML = "<p>Leo</p>";
         }
     }
     if (month == 7) {
-        if (dayOfMonth <= 22) {
+        if (dayOfMonth <= 23) {
             result.innerHTML = "<p>Leo</p>";
         } else {
             result.innerHTML = "<p>Virgo</p>";
@@ -81,17 +81,18 @@ function findStarSign(input) {
         }
     }
     if (month == 10) {
-        if (dayOfMonth <= 21) {
+        if (dayOfMonth <= 22) {
             result.innerHTML = "<p>Scorpio</p>";
         } else {
             result.innerHTML = "<p>Sagittarius</p>";
         }
     }
     if (month == 11) {
-        if (dayOfMonth <= 21) {
+        if (dayOfMonth <= 20) {
             result.innerHTML = "<p>Sagittarius</p>";
         } else {
             result.innerHTML = "<p>Capricorn</p>";
     }
 }
+
 
