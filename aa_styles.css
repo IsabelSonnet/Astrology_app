@@ -4,8 +4,35 @@ body {
 
 h1 {
     color: white;
+    position: relative;
+    text-align: center;
 }
 
 label {
     color: white;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dateInput {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+button{
+    position: relative;
+    text-align: center;
 }
