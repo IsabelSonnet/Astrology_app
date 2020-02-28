@@ -12,7 +12,7 @@ function findStarSign(birthdate) {
     var dayOfMonth = birthdate.getDate();
     if (month == 0) {
         if (dayOfMonth <= 20) {
-            result.innerHTML = "<p>Capricorn</p>";
+            result.innerHTML = "<p>Capricorn</p><img src= >";
         } else {
             result.innerHTML = "<p>Aquarius</p>";
         }

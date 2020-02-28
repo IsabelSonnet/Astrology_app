@@ -1,5 +1,5 @@
 body {
-    background-image: URL("https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-image: URL("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
 }
 
 h1 {
@@ -8,4 +8,8 @@ h1 {
 
 label {
     color: white;
+}
+div {
+    color: white;
+    font-size: 50px;
 }
