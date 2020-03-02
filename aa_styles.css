@@ -21,21 +21,7 @@ label {
 }
 
 .center {
-    position: relative;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-#dateInput {
-    display: block;
-    position: relative;
-    text-align: center;
-}
-
-button{
-    position: relative;
-    text-align: center;
+    display: inline-block;
 }
 
 div {
@@ -47,4 +33,8 @@ div {
 .libra {
     height: 400px;
     width: 350px;
+}
+
+.div {
+    text-align: center;
 }
