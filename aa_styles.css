@@ -15,16 +15,36 @@ label {
     text-align: center;
 }
 
+#result {
+    position: relative;
+    text-align: center;
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
 #dateInput {
     display: block;
     position: relative;
     text-align: center;
 }
+
 button{
     position: relative;
     text-align: center;
 }
+
 div {
     color: white;
-    font-size: 50px;
+    font: monoscript;
+    font-size: 30px;
+}
+
+.libra {
+    height: 400px;
+    width: 350px;
 }
